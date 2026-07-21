@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="startScreen">
+    <div id="startScreen" class="hidden">
       <h1>Welcome!</h1>
       <label>Please enter your name:</label>
       <input
@@ -19,7 +19,20 @@
       <button id="startBtn">Say Hi</button>
     </div>
 
-    <div class="container"></div>
+    <div class="container">
+      <h3 id="greet"></h3>
+      <h1>To-Do List</h1>
+
+      <div class="searchBox">
+        <input type="text" id="inputSearch" placeholder="Search a task ..." />
+      </div>
+
+      <div class="formBox"></div>
+
+      <p>There's no task. Add a new task!</p>
+      <ul id="taskList"></ul>
+      <button id="endTaskBtn">End Task</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

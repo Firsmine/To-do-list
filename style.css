@@ -12,3 +12,35 @@ body {
   justify-content: center;
   padding: 40px 15px;
 }
+
+#startScreen {
+  height: 17rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.inputName {
+  width: 13rem;
+  height: 2rem;
+  padding: 10px;
+}
+#startBtn {
+  padding: 10px;
+  width: 100px;
+  background: rgb(154, 201, 255);
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+h1 {
+  font-weight: 800;
+}
+label {
+  font-weight: 700;
+}
